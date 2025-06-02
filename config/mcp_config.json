@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bdd-automation": {
+      "command": "python",
+      "args": ["-m", "mcp_bdd_automation.server"],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "OLLAMA_HOST": "http://localhost:11434"
+      }
+    }
+  }
+}
